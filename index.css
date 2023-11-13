@@ -142,3 +142,19 @@ body{
 .social-icons a[href*="twitter"] i { color: #1da1f2; } /* Azul do Twitter */
 .social-icons a[href*="instagram"] i { color: #e4405f; } /* Rosa do Instagram */
 .social-icons a[href*="discord"] i { color: #7289DA; } 
+
+#changeBackgroundBtn {
+    background-color: rgba(6, 0, 0, 0.5); /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno (topo/baixo, esquerda/direita) */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Adiciona cantos arredondados */
+    cursor: pointer; /* Muda o cursor ao passar por cima */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave à cor de fundo */
+    font-family: 'valorant', sans-serif;
+}
+
+#changeBackgroundBtn:hover {
+    background-color: #FF4655; 
+}
