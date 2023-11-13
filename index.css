@@ -1,0 +1,144 @@
+.navbar-brand,
+.navbar-nav .nav-link
+{
+    font-family: 'Valorant', sans-serif; /* Substitua 'Arial' pela fonte desejada */
+}
+
+.navbar-brand{
+    color: #FF4655;
+}
+
+form.d-flex input[type="search"]::placeholder {
+    color: #888; /* Cor do texto do placeholder */
+    font-family: 'Valorant', sans-serif; /* Substitua 'SuaFontePreferida' pela fonte desejada */
+    /* Outros estilos de texto, se necessário */
+}
+
+.dropdown-item, .btn{
+    font-family: 'Valorant', sans-serif;
+}
+
+
+body{
+
+        margin: 0;
+        padding: 0;
+        background: url('img/bgall.png.jpg') center/cover no-repeat fixed; 
+        height: 100vh;
+}
+    
+.content {
+        padding: 50px; /* ou o valor desejado */
+    }
+    
+    nav.navbar {
+        border-bottom: 2px solid #FF4655; /* Adapte a cor da borda conforme necessário */
+        z-index: 50;
+    }
+    
+    .articles-container {
+        display: flex;
+        justify-content: space-between; /* Espaçamento igual entre os elementos, colocando um na extrema direita e outro na extrema esquerda */
+        margin-top: 50px;
+    }
+    
+    h5 {
+        margin: 20px 0;
+        text-align: center;
+    }
+    
+    #y {
+        margin-right: auto; /* Empurra para a extrema direita */
+        color:azure;
+        justify-content: center;
+    }
+    
+    #x {
+        margin-left: auto; /* Empurra para a extrema esquerda */
+        color:azure;
+        justify-content: center;
+    }
+    #z{
+        width: 100%; /* Ajusta a largura para ocupar 100% do contêiner pai */
+        height: auto; /* Mantém a proporção original da imagem */
+        padding-top: 60px;
+    }   
+
+    #vid{ 
+        color: azure;
+        font-family: 'Valorant', sans-serif;
+        text-align: center;
+    }
+    
+    .text-box {
+        background-color: rgba(6, 0, 0, 0.5);
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+        max-width: 350px; /* Set the maximum width as per your design */
+        margin-left: auto; /* Center the box by pushing it to the right margin */
+        margin-right: auto; /* Center the box by pushing it to the left margin */
+        word-wrap: break-word; /* Allow long words to be broken and wrap onto the next line */
+        overflow-wrap: break-word;
+        color: azure;
+    }
+    .text-box2{
+        background-color: rgba(6, 0, 0, 0.5);
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+        max-width: 600px; /* Set the maximum width as per your design */
+        margin-left: auto; /* Center the box by pushing it to the right margin */
+        margin-right: auto; /* Center the box by pushing it to the left margin */
+        word-wrap: break-word; /* Allow long words to be broken and wrap onto the next line */
+        overflow-wrap: break-word;
+        color: azure;
+    }
+
+    footer {
+        background-color: #343a40;
+        color: white;
+    }
+    
+    .centered-box {
+        text-align: center;
+    }
+
+    .centered-box h4{
+        background-color: rgba(6, 0, 0, 0.5);
+        border: 2px solid rgba(6, 85, 158, 0.5);
+        padding: 10px;
+        border-radius: 8px;
+        display: inline-block;
+        margin: 0; /* Remove a margem padrão do h4 */
+        color: azure;
+        font-family: Valorant;
+    }
+
+    #vava {
+
+        background-color: rgba(6, 0, 0, 0.5);
+        border: 2px solid, #FF4655;
+        border-radius: 8px;
+        display: inline-block;
+        margin: 0; 
+        color: azure;
+        font-family: Valorant;
+        text-align: center;
+    }
+ .func{
+    text-align: justify;
+ }
+
+ .social-icons a i {
+    font-size: 2em; /* Tamanho do ícone */
+    margin-right: 5px; /* Espaçamento entre o ícone e o texto */
+}
+
+/* Cores personalizadas para cada ícone */
+.social-icons a[href*="facebook"] i { color: #3b5998; } /* Azul do Facebook */
+.social-icons a[href*="twitter"] i { color: #1da1f2; } /* Azul do Twitter */
+.social-icons a[href*="instagram"] i { color: #e4405f; } /* Rosa do Instagram */
+.social-icons a[href*="discord"] i { color: #7289DA; } 
