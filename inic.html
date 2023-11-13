@@ -100,7 +100,30 @@
             </section>
         </div>
     </article>
-    
+   
+ <button id="changeBackgroundBtn">Mudar Plano de Fundo</button>
+ 
+ <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Lista de caminhos para suas imagens de fundo
+        const imagens = ['img/bg0.jpg', 'img/divu2.gif', 'img/bgall.png.jpg', 'img/fundo1.jpeg', 'img/fundo2.jpg'];
+        
+        let indiceAtual = 0;
+
+        // Função para mudar o plano de fundo quando o botão for clicado
+        function changeBackground() {
+            
+            document.body.style.backgroundImage = "url('" + imagens[indiceAtual] + "')";
+            document.body.style.backgroundSize = "cover";
+
+            // Avança para a próxima imagem ou volta para a primeira se estiver na última
+            indiceAtual = (indiceAtual + 1) % imagens.length;
+        }
+
+        // Adiciona um ouvinte de evento ao botão
+        document.getElementById('changeBackgroundBtn').addEventListener('click', changeBackground);
+    });
+</script>
 
     <footer class="bg-dark text-light text-center py-5">
         <div class="container" style="font-family: 'Valorant';">
