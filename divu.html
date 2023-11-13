@@ -102,6 +102,29 @@
             <p>Site: <a href="https://liburkus.github.io/valorantips/" target="_blank">liburkus.github.io/valorantips/</a></p>
         </div>
     </article>
+ <button id="changeBackgroundBtn">Mudar Plano de Fundo</button>
+ 
+ <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Lista de caminhos para suas imagens de fundo
+        const imagens = ['img/bg0.jpg', 'img/divu2.gif', 'img/bgall.png.jpg', 'img/fundo1.jpeg', 'img/fundo2.jpg'];
+        
+        let indiceAtual = 0;
+
+        // Função para mudar o plano de fundo quando o botão for clicado
+        function changeBackground() {
+            
+            document.body.style.backgroundImage = "url('" + imagens[indiceAtual] + "')";
+            document.body.style.backgroundSize = "cover";
+
+            // Avança para a próxima imagem ou volta para a primeira se estiver na última
+            indiceAtual = (indiceAtual + 1) % imagens.length;
+        }
+
+        // Adiciona um ouvinte de evento ao botão
+        document.getElementById('changeBackgroundBtn').addEventListener('click', changeBackground);
+    });
+</script>
     
     <footer class="bg-opacity-10 bg-dark text-light text-center py-5">
         <div class="container" style="font-family: 'Valorant'; background-color: rgba(6, 0, 0, 0.1);">
@@ -138,7 +161,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
     <noscript>Javascript não encontrado</noscript>
 
    
