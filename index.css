@@ -10,8 +10,7 @@
 
 form.d-flex input[type="search"]::placeholder {
     color: #888; /* Cor do texto do placeholder */
-    font-family: 'Valorant', sans-serif; /* Substitua 'SuaFontePreferida' pela fonte desejada */
-    /* Outros estilos de texto, se necessário */
+    font-family: 'Valorant', sans-serif;
 }
 
 .dropdown-item, .btn{
@@ -32,7 +31,7 @@ body{
     }
     
     nav.navbar {
-        border-bottom: 2px solid #FF4655; /* Adapte a cor da borda conforme necessário */
+        border-bottom: 2px solid #FF4655; 
         z-index: 50;
     }
     
@@ -137,18 +136,18 @@ body{
 }
 
 /* Cores personalizadas para cada ícone */
-.social-icons a[href*="facebook"] i { color: #3b5998; } /* Azul do Facebook */
-.social-icons a[href*="twitter"] i { color: #1da1f2; } /* Azul do Twitter */
-.social-icons a[href*="instagram"] i { color: #e4405f; } /* Rosa do Instagram */
+.social-icons a[href*="facebook"] i { color: #3b5998; } 
+.social-icons a[href*="twitter"] i { color: #1da1f2; } 
+.social-icons a[href*="instagram"] i { color: #e4405f; } 
 .social-icons a[href*="discord"] i { color: #7289DA; } 
 
 #changeBackgroundBtn {
-    background-color: rgba(6, 0, 0, 0.5); /* Cor de fundo */
-    color: white; /* Cor do texto */
-    padding: 10px 20px; /* Espaçamento interno (topo/baixo, esquerda/direita) */
-    font-size: 16px; /* Tamanho da fonte */
+    background-color: rgba(6, 0, 0, 0.5); 
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px; 
     border: none; /* Remove a borda padrão */
-    border-radius: 5px; /* Adiciona cantos arredondados */
+    border-radius: 5px; 
     cursor: pointer; /* Muda o cursor ao passar por cima */
     transition: background-color 0.3s ease; /* Adiciona uma transição suave à cor de fundo */
     font-family: 'valorant', sans-serif;
