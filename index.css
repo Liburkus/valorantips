@@ -1,7 +1,7 @@
 .navbar-brand,
 .navbar-nav .nav-link
 {
-    font-family: 'Valorant', sans-serif; /* Substitua 'Arial' pela fonte desejada */
+    font-family: 'Valorant', sans-serif; 
 }
 
 .navbar-brand{
@@ -28,7 +28,7 @@ body{
 }
     
 .content {
-        padding: 50px; /* ou o valor desejado */
+        padding: 50px; 
     }
     
     nav.navbar {
@@ -75,11 +75,10 @@ body{
         padding: 20px;
         border-radius: 8px;
         margin-top: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
-        max-width: 350px; /* Set the maximum width as per your design */
-        margin-left: auto; /* Center the box by pushing it to the right margin */
-        margin-right: auto; /* Center the box by pushing it to the left margin */
-        word-wrap: break-word; /* Allow long words to be broken and wrap onto the next line */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        max-width: 350px; 
+        margin-left: auto; 
+        margin-right: auto; 
         overflow-wrap: break-word;
         color: azure;
     }
@@ -88,11 +87,11 @@ body{
         padding: 20px;
         border-radius: 8px;
         margin-top: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
-        max-width: 600px; /* Set the maximum width as per your design */
-        margin-left: auto; /* Center the box by pushing it to the right margin */
-        margin-right: auto; /* Center the box by pushing it to the left margin */
-        word-wrap: break-word; /* Allow long words to be broken and wrap onto the next line */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        max-width: 600px; 
+        margin-left: auto; 
+        margin-right: auto; 
+        word-wrap: break-word; 
         overflow-wrap: break-word;
         color: azure;
     }
